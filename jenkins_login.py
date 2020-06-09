@@ -1,4 +1,4 @@
-import jenkins
+from jenkinsapi.jenkins	import Jenkins
 
 server = jenkins.Jenkins('http://100.25.142.138:8080/', username='admin', password='rhouse11!')
 
